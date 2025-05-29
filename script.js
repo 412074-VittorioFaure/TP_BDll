@@ -51,6 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
         table += "</tbody></table>";
         return table;
     }
+    let int = 0;
 
     function generateChart(data, reportId) {
         if (chartInstance) chartInstance.destroy();
