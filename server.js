@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const { MongoClient } = require("mongodb");
 const reportesRouter = require("./reportes");
+let int = 0;
 
 const app = express();
 const PORT = 3000;
